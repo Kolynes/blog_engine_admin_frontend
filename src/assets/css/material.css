@@ -1,0 +1,84 @@
+@import "./materialdesignicons.min.css";
+@import "./flaticon.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,800&display=swap');
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/MaterialDesignIcons.woff2") format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+  
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+
+.v-input__slot {
+  background-color: rgb(240, 240, 240) !important;
+  box-shadow: none !important;
+  transition: background-color .5s ease-out !important;
+}
+
+.v-input--is-focused .v-input__slot {
+  background-color: #0048cb2e !important;
+  color: rgba(0, 72, 203, 1) !important;
+}
+
+.error--text .v-input__slot {
+  background-color: rgba(203, 0, 17, 0.08) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100vh - 120px);
+}
+
+@media screen and (min-width: 480px) {
+  .scrollable {
+    height: calc(600px - 120px);
+  }
+}

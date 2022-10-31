@@ -1,0 +1,40 @@
+{
+  "name": "blog_engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode production",
+    "build-dev": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "moment": "^2.29.4",
+    "register-service-worker": "^1.7.2",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-typescript": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.3.0",
+    "vue-cli-plugin-vuetify": "^2.5.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.7.0"
+  }
+}

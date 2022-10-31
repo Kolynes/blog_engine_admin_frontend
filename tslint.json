@@ -1,0 +1,14 @@
+{
+  "defaultSeverity": "warning",
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "interface-name": false,
+    "no-consecutive-blank-lines": false,
+    "object-literal-sort-keys": false,
+    "member-access": [true, "no-public"]
+  }
+}
